@@ -1,0 +1,151 @@
+ /* sass style.scss:style.css --watch */
+ 
+ .background-img{
+    background-image: url('../imgs/home-icons-weelz/Group\ 733.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    overflow-y:scroll;
+
+}
+
+.subheadline-1{
+    font-size: 30px;
+    color:#ffffff;
+    width:259px;
+    height: 76.5px;
+    margin-top: 88px;
+    font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+.subheadline-2{
+    width:294px;
+    height: 37.5px;
+    font-size: 13px;
+   color:#f7f7f7 ; 
+   margin: 8.5px 70.5px 22.5px 0.5px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: #ffffff;
+}
+
+
+
+.logo{
+
+  width:200px;
+   object-fit:contain;
+  
+}
+
+
+.White---08pt-Radius{
+    width: 160px;
+  height: 35px;
+  margin: 22.5px 204.5px 78.1px 0.5px;
+  border-radius: 4px;
+  box-shadow: 0 1.5px 7.5px 0 rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(97deg, #00c3e1 13%, #00c0dd 72%);
+}
+
+.google-play{
+ width: 126.1px;
+ height:37.4px ; 
+}
+.app-store{
+ width: 110.3px;
+ height: 35.7px; 
+}
+.phone-background{
+  height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.subheadline3{
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff !important
+}
+
+.drop-down{
+ 
+  width: 66px;
+  height: 30px;
+    // margin: 3px 0 3.4px 16.8px;
+    // padding: 4.5px 11.4px 9px 11px;
+    border-radius: 5px;
+     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-weight: 600;
+    
+}
+ul{
+  background-color:#ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2.5px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+
+.dropdown-toggle::after {
+  display: inline-block;
+  color:#F1F1;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.language-btn{
+
+ 
+ width: 66px;
+ height: 30px ;
+ border-radius: 4px;
+background-image: linear-gradient(97deg, #00c3e1 13%, #00c0dd 72%);
+//  background-color: #ffffff;
+// border-radius: 5px;
+}
+
+.language-btn .value{
+    height: 16.5px;
+    margin: 0 11px 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    font-stretch: normal;
+    line-height: 1.08;
+    text-align: end;
+    color: #ffffff;
+
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url('../imgs/home-icons-weelz/Hamburger_icon_white.svg.png');
+}
+// .navbar-toggler{
+//  color:transparent;
+// }
+
+@media screen and (max-width:300px){
+.navbar-brand{
+  width:75px;
+  height: 36.4px;
+}
+
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
